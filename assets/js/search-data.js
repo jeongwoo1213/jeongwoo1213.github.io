@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "post-a-post-with-plotly-js",
+  },{id: "nav-publications",
+          title: "Publications",
+          description: "(*: equal contribution)",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -382,10 +389,7 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-one-paper-accepted-to-neurips-2025-tada-see-you-in-san-diego",
+            },},{id: "news-one-paper-accepted-to-neurips-2025-tada-see-you-in-san-diego",
           title: 'One paper accepted to NeurIPS 2025 :tada: See you in San Diego!',
           description: "",
           section: "News",},{id: "projects-project-1",
