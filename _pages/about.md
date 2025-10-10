@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Ph.D Student @ Yonsei University. | Efficient AI
+subtitle: Ph.D Student @ Yonsei University | Deep Learning & Efficient AI
 
 profile:
   align: right
