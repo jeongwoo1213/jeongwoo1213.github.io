@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "(*: equal contribution)",
+          description: "*: equal contribution",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -384,11 +384,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{id: "news-one-paper-accepted-to-neurips-2025-tada-see-you-in-san-diego",
           title: 'One paper accepted to NeurIPS 2025 :tada: See you in San Diego!',
           description: "",
@@ -456,7 +451,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/", "_blank");
+          window.open("https://www.linkedin.com/in/jeongwoo-choi-038924315", "_blank");
         },
       },{
         id: 'social-scholar',
