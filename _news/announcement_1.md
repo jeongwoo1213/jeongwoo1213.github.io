@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted to NeurIPS 2025 :tada: See you in San Diego!
+One paper accepted to NeurIPS 2025 :tada:&nbsp;See you in San Diego!

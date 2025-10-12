@@ -1,0 +1,13 @@
+<div class="education">
+  <ul class="edu-list">
+    {% for edu in site.data.education %}
+      <li>
+        <strong>{{ edu.degree }}</strong>, {{ edu.institution }}
+        <ul>
+          <li>{{ edu.year }}</li>
+        </ul>
+        
+      </li>
+    {% endfor %}
+  </ul>
+</div>

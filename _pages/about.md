@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D Student @ Yonsei University | Deep Learning & Efficient AI
+subtitle: 'Ph.D. Student @ Yonsei University | <a href="mailto:jeongwoo@yonsei.ac.kr" style="color: inherit; text-decoration: none;">✉️</a>'
 
 profile:
   align: right
@@ -27,9 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, I'm Ph.D student and a member of [Computer Vision Lab](https://cvlab.yonsei.ac.kr/) at Yonsei University advised by Prof. Bumsub Ham.
+:raising_hand: Hello, I'm Ph.D student and a member of [Computer Vision Lab](https://cvlab.yonsei.ac.kr/) at Yonsei University advised by [Prof. Bumsub Ham](mailto:bumsub.ham@yonsei.ac.kr).
 
 My research interests include **computer vision**, **generative modeling**, and **efficient deep learning**. 
+
+Currently, I'm particulary intersted in 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
