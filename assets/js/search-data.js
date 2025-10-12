@@ -385,7 +385,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-one-paper-accepted-to-neurips-2025-tada-see-you-in-san-diego",
-          title: 'One paper accepted to NeurIPS 2025 :tada: See you in San Diego!',
+          title: 'One paper accepted to NeurIPS 2025 :tada: See you in San Diego!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -440,13 +440,6 @@ ninja.data = [{
           window.open("mailto:%6A%65%6F%6E%67%77%6F%6F.%63%68%6F%69@%79%6F%6E%73%65%69.%61%63.%6B%72", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/jeongwoo1213", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
@@ -459,6 +452,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://cvlab.yonsei.ac.kr/", "_blank");
         },
       },{
       id: 'light-theme',
