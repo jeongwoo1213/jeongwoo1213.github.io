@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "*: equal contribution",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -384,8 +384,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-one-paper-accepted-to-neurips-2025-tada-see-you-in-san-diego",
-          title: 'One paper accepted to NeurIPS 2025 :tada: See you in San Diego!',
+            },},{id: "news-one-paper-accuquant-has-been-accepted-to-neurips-2025-tada-see-you-in-san-diego",
+          title: 'One paper, AccuQuant, has been accepted to NeurIPS 2025. :tada:  See you in San...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
