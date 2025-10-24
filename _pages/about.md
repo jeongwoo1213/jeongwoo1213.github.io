@@ -36,7 +36,7 @@ latest_posts:
 
 My research interests include **computer vision**, **generative modeling**, and **efficient deep learning**. 
 Currently, I’m interested in efficient generative models that reduce computational and memory demands while maintaining generation quality.
-As modern AI models demand substantial computing resources, I believe lightweight optimization is essential to make generative AI truly practical and widely usable.
+As modern generative models demand substantial computing resources, I believe designing efficient and hardware-frendly systems is essential to make generative models practical and widely usable.
 
 If you have any questions or suggestions, please feel free to contact me via [email](mailto:jeongwoo.choi@yonsei.ac.kr) or [linkedin](https://linkedin.com/in/jeongwoo-choi-038924315).
 
