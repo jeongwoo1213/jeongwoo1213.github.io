@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted to NeurIPS 2025 :tada:&nbsp;See you in San Diego!
+One paper, [AccuQuant](https://github.com/cvlab-yonsei/projects/AccuQuant), has been accepted to NeurIPS 2025. :tada:&nbsp;&nbsp;See you in San Diego!

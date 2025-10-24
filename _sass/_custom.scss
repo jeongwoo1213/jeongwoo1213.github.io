@@ -1,0 +1,75 @@
+/* Center align 'Email' text under the profile image */
+.profile .more-info {
+    text-align: center;
+    margin-top: 0.8rem;
+    font-family: monospace;
+}
+
+.edu-list ul li {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.2rem;
+}
+
+/* Education section spacing */
+.edu-list > li {
+    margin-bottom: 0.8rem;  /* 각 학력 항목 사이 간격 */
+}
+
+/* (선택) 내부 연도 목록의 간격 살짝 줄이기 */
+.edu-list ul {
+    margin-top: 0.3rem;
+    margin-bottom: 0; 
+}
+
+
+/* --- Custom style for page description (like Publications note) --- */
+.page-description {
+    font-size: 1.05rem;     /* 기본 약 0.9rem → 조금 크게 */
+    font-weight: 500;       /* 약간 강조 */
+    color:#444;            /* 필요하면 살짝 진한 회색 */
+    margin-top: 0.4rem;     /* 위쪽 간격 */
+}
+
+.more-info a {
+    color: var(--global-text-color); /* 테마 기본 텍스트 색 */
+    text-decoration: none; /* 밑줄 제거 */
+    transition: color 0.25s ease, transform 0.2s ease;
+}
+
+.more-info a:hover {
+    color: var(--global-theme-color); /* 테마 강조색 (ex: #4c6ef5) */
+    transform: scale(1.05);
+}
+
+
+#news-section {
+    margin-bottom: 1rem;
+  }
+  
+  .news-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .news-item {
+    margin-bottom: 0.4rem;
+  }
+  
+  .see-more {
+    text-align: right;
+    margin-top: 0.5rem;
+  }
+  
+  #toggle-news {
+    background: none;
+    border: none;
+    color: var(--global-theme-color);
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  #toggle-news:hover {
+    color: var(--global-text-color);
+  }

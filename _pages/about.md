@@ -2,14 +2,19 @@
 layout: about
 title: About
 permalink: /
-subtitle: 'Ph.D. Student @ Yonsei University | <a href="mailto:jeongwoo@yonsei.ac.kr" style="color: inherit; text-decoration: none;">✉️</a>'
+subtitle: Ph.D. Student @ Yonsei University, Seoul, Korea
+publication_note: "* equal contribution"
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
-  #   <p>555 your office number</p>
+  #   <p>
+  #     <a href="mailto:jeongwoo.choi@yonsei.ac.kr" class="more-info-link">Email</a>
+  #     ,
+  #     <a href="https://linkedin.com/in/jeongwoo-choi-038924315" class="more-info-link">LinkedIn</a>
+  #   </p>
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
@@ -27,11 +32,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-:raising_hand: Hello, I'm Ph.D student and a member of [Computer Vision Lab](https://cvlab.yonsei.ac.kr/) at Yonsei University advised by [Prof. Bumsub Ham](mailto:bumsub.ham@yonsei.ac.kr).
+🙋‍♂️ Hello, I'm Ph.D student and a member of [Computer Vision Lab](https://cvlab.yonsei.ac.kr/) at Yonsei University advised by [Prof. Bumsub Ham](mailto:bumsub.ham@yonsei.ac.kr).
 
 My research interests include **computer vision**, **generative modeling**, and **efficient deep learning**. 
+Currently, I’m interested in efficient generative models that reduce computational and memory demands while maintaining generation quality.
+As modern AI models demand substantial computing resources, I believe lightweight optimization is essential to make generative AI truly practical and widely usable.
 
-Currently, I'm particulary intersted in 
+If you have any questions or suggestions, please feel free to contact me via [email](mailto:jeongwoo.choi@yonsei.ac.kr) or [linkedin](https://linkedin.com/in/jeongwoo-choi-038924315).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
