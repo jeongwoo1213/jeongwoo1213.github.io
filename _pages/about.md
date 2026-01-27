@@ -4,6 +4,8 @@ title: About
 permalink: /
 subtitle: Ph.D. Student @ Yonsei University, Seoul, Korea
 publication_note: "* equal contribution"
+email: jeongwoo.choi@yonsei.ac.kr
+linkedin: https://www.linkedin.com/in/jeongwoo-choi-038924315/
 
 profile:
   align: right

@@ -73,3 +73,77 @@
   #toggle-news:hover {
     color: var(--global-text-color);
   }
+
+.video-lightbox {
+    cursor: zoom-in;
+    display: inline-block;
+}
+
+/* HARD constrain for publication previews (img + video) */
+.publications .abbr .pub-preview-wrapper,
+.publications .abbr a.video-lightbox,
+.publications .abbr video.preview,
+.publications .abbr img.preview {
+  width: 100% !important;
+  max-width: 500px !important;
+  display: block !important;
+}
+
+.publications .abbr video.preview,
+.publications .abbr img.preview {
+  height: auto !important;
+  object-fit: cover;
+}
+
+// .medium-zoom-image {
+//   max-width: 80vw !important;   /* 화면 가로의 80% */
+//   max-height: 80vh !important;  /* 화면 세로의 80% */
+//   object-fit: contain;
+// }
+
+/* ================================
+   Fix medium-zoom overscale
+================================ */
+
+/* medium-zoom 확대된 이미지 크기 제한 (상태 안꼬이게) */
+.medium-zoom-image--opened {
+  max-width: 12vw !important;
+  max-height: 12vh !important;
+  object-fit: contain !important;
+}
+
+/* 오버레이가 클릭/ESC로 항상 닫히게 */
+.medium-zoom-overlay {
+  cursor: zoom-out;
+}
+
+.publications h2.bibliography {
+  display: none !important;
+}
+
+
+/* About page title icons */
+.about-title {
+  display: flex;
+  align-items: bottom;
+  gap: 0.75rem;
+}
+
+.about-icons {
+  display: flex;
+  gap: 1.0rem;
+  font-size: 2.3rem;
+  margin-top: 0.2rem;
+  margin-left: 0.8rem;
+}
+
+.about-icons a {
+  color: var(--global-text-color);
+  transition: color 0.2s ease, transform 0.15s ease;
+}
+
+.about-icons a:hover {
+  color: var(--global-theme-color);
+  transform: translateY(-1px) scale(1.05);
+  text-decoration: none;
+}

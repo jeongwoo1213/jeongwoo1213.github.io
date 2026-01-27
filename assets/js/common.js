@@ -1,3 +1,5 @@
+console.log("common.js loaded");
+
 $(document).ready(function () {
   // add toggle functionality to abstract, award and bibtex buttons
   $("a.abstract").click(function () {

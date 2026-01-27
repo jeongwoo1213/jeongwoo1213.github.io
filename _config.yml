@@ -48,11 +48,11 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: false
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false
 bib_search: true
 
 # Dimensions
-max_width: 840px
+max_width: 900px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -169,7 +169,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages/about.md", "_pages/publications.md", "_pages/news.md", "_scripts"]
+include: ["_pages/about.md", "_pages/publications.md", "_pages/coming-soon-pdf.md", "_pages/coming-soon-site.md", "_pages/news.md", "_scripts"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -331,7 +331,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+# max_author_limit: 3 # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
