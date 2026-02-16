@@ -72,6 +72,41 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Awards -->
+    {% if site.data.awards %}
+      <h2>🏆 Awards</h2>
+
+      <div class="awards-list">
+        {% assign awards_sorted = site.data.awards | sort: "year" | reverse %}
+        {% for award in awards_sorted %}
+          <div class="award-item">
+            <div class="award-year">{{ award.year }}</div>
+
+            <div class="award-body">
+              <div class="award-title">
+                {{ award.title }}
+                {% if award.venue %}
+                  <span class="award-venue">· {{ award.venue }}</span>
+                {% endif %}
+              </div>
+
+              {% if award.description %}
+                <div class="award-desc">{{ award.description }}</div>
+              {% endif %}
+
+              {% if award.link %}
+                <a class="award-link" href="{{ award.link }}" target="_blank" rel="noopener">
+                  View <i class="ti ti-arrow-up-right"></i>
+                </a>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+
+      <div style="margin-bottom: 3rem;"></div>
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>

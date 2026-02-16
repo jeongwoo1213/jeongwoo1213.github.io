@@ -8,7 +8,7 @@
       <table class="table table-sm table-borderless" id="news-table">
         {% for item in news %}
           <tr class="news-row" {% if forloop.index > max_items %}style="display: none;"{% endif %}>
-            <th scope="row" style="width: 20%">{{ item.date | date: '[%b. %Y]' }}</th>
+            <th scope="row" style="width: 12%">{{ item.date | date: '[%b. %Y]' }}</th>
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}

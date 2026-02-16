@@ -6,4 +6,4 @@ related_posts: false
 category: publication
 ---
 
-One paper, [RFC](https://cvlab.yonsei.ac.kr/projects/RFC/), has been accepted to ICLR 2026. :tada:&nbsp;&nbsp;See you in Rio de Janeiro! :parrot:
+One paper, [RFC](https://cvlab.yonsei.ac.kr/projects/RFC/), has been accepted to <b>ICLR 2026</b>. :tada:&nbsp;&nbsp;See you in Rio de Janeiro! :parrot:

@@ -6,4 +6,4 @@ related_posts: false
 category: publication
 ---
 
-One paper, [AccuQuant](https://cvlab.yonsei.ac.kr/projects/AccuQuant/), has been accepted to NeurIPS 2025. :tada:&nbsp;&nbsp;See you in San Diego! :ocean:
+One paper, [AccuQuant](https://cvlab.yonsei.ac.kr/projects/AccuQuant/), has been accepted to <b>NeurIPS 2025</b>. :tada:&nbsp;&nbsp;See you in San Diego! :ocean:
