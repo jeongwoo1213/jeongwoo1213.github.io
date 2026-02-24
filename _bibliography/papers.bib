@@ -24,8 +24,10 @@
   author={Son*, Byunggwan and Jeon*, Jeimin and Choi*, Jeongwoo and Ham, Bumsub},
   booktitle={International Conference on Learning Representations (ICLR)},
   year={2026},
+  html={https://cvlab.yonsei.ac.kr/projects/RFC/},
   selected={true},
   preview={RFC.gif},
   abbr={ICLR 2026 (poster)},
+  pdf={https://arxiv.org/abs/2602.19506},
   abstract={Feature caching approaches accelerate diffusion transformers (DiTs) by storing the output features of computationally expensive modules at certain timesteps, and exploiting them for subsequent steps to reduce redundant computations. Recent forecasting-based caching approaches employ temporal extrapolation techniques to approximate the output features with cached ones. Although effective, relying exclusively on temporal extrapolation still suffers from significant prediction errors, leading to performance degradation. Through a detailed analysis, we find that 1) these errors stem from the irregular magnitude of changes in the output features, and 2) an input feature of a module is strongly correlated with the corresponding output. Based on this, we propose relational feature caching (RFC), a novel framework that leverages the input-output relationship to enhance the accuracy of the feature prediction. Specifically, we introduce relational feature estimation (RFE) to estimate the magnitude of changes in the output features from the inputs, enabling more accurate feature predictions. We also present relational cache scheduling (RCS), which estimates the prediction errors using the input features and performs full computations only when the errors are expected to be substantial. Extensive experiments across various DiT models demonstrate that RFC consistently outperforms prior approaches significantly. We will release our code publicly upon acceptance.}
 }
